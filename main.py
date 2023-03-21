@@ -6,11 +6,11 @@ def readingTemplate():
         config = toml.load(config_toml_template)
         return config
 
-def 
+
 
 
 if __name__ == '__main__':
-    print(readingTemplate())
+    print(readingTemplate()["vbu"][1])
 
 
 
